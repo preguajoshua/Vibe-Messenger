@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2A938"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="287dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_vibemessenger" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibe Messenger!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="264dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Chat with your friends using P2P for free!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

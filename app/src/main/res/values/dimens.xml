@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="activity_main_shadow_height">4dp</dimen>
+    <dimen name="activity_main_time_margin_bottom">16dp</dimen>
+    <dimen name="activity_main_slide_to_cancel_margin_right">96dp</dimen>
+    <dimen name="activity_main_slide_to_cancel_icon_size">24dp</dimen>
+    <dimen name="activity_main_slide_to_cancel_icon_margin_right">8dp</dimen>
+    <dimen name="activity_main_input_holder_min_height">48dp</dimen>
+    <dimen name="activity_main_input_margin_left">16dp</dimen>
+    <dimen name="activity_main_input_padding_vertical">8dp</dimen>
+    <dimen name="activity_main_start_record_width">48dp</dimen>
+    <dimen name="activity_main_input_text_size">13sp</dimen>
+    <dimen name="activity_main_holding_button_radius">40dp</dimen>
+    <dimen name="activity_main_holding_button_second_radius">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>
