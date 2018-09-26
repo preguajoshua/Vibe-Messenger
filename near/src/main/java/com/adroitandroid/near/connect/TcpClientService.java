@@ -18,9 +18,6 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
 
-/**
- * Created by pv on 21/06/17.
- */
 
 public class TcpClientService extends Service {
 

@@ -68,27 +68,6 @@ class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MessageVH> {
         notifyItemInserted(mMessages.size() - 1);
     }
 
-//    void addRecordMessage(byte[] mByte, String filePath,String senderName) throws IOException {
-//
-////        File audioFile = new File(filePath);
-////        byte[] audioFileByteStream  = new byte[(int) audioFile.length()];
-////        mMessages.add(String.valueOf(audioFileByteStream));
-////
-//        mMessages.add(filePath);
-//        mMessageSender.add(senderName);
-//        writeToFile(mByte,filePath);
-//        notifyItemInserted(mMessages.size()-1);
-//    }
-
-
-//    public void writeToFile(byte[] data, String fileName) throws IOException {
-//        FileOutputStream out = new FileOutputStream(fileName+"received");
-//        out.write(data);
-//        out.close();
-//    }
-
-
-
     class MessageVH extends RecyclerView.ViewHolder {
         private final RowMessagesBinding binding;
         MessageVH(RowMessagesBinding binding) {

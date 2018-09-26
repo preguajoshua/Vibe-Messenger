@@ -105,7 +105,7 @@
                         android:layout_height="64dp"
 
                         android:padding="10dp"
-                        android:src="@drawable/envelope" />
+                        android:src="@drawable/ic_manual" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="46dp"
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="Dont know how to use the app? Click here"

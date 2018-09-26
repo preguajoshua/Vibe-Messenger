@@ -16,8 +16,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fd902d98b9ba2a544d78216e7dad805a87c36294">
+        sha1="9cd6c68c13c327de00fd9b08c690b45cc2c41d35">
         <dex dex="D:\Near-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bf8ab1388d2b2b4dd7517e4d4d42c4304895bf34\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Near-master\near\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0b50da7c72fc298af414c269da5c956f649e6d0">
+        <dex dex="D:\Near-master\app\build\intermediates\pre-dexed\debug\classes_ae26ef7fa07ee954d3047c80301889e964a82391.jar" />
     </item>
 
 </items>

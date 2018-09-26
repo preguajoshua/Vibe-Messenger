@@ -131,12 +131,10 @@ class NearDiscoveryImpl implements NearDiscovery {
     public void stopDiscovery() {
         if (mDiscovering) {
             mContext.unbindService(mServerConnection);
-
             Intent intent = new Intent(mContext.getApplicationContext(), UdpServerService.class);
             intent.putExtra(UdpServerService.BUNDLE_COMMAND, UdpServerService.COMMAND_STOP_SERVER);
             mContext.startService(intent);
             mDiscovering = false;
-
             mDiscoveryDisposable.dispose();
         }
     }
