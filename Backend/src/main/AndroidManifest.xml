@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uic.capstone.vibemessenger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <service android:name="uic.capstone.vibemessenger.discovery.UdpBroadcastService" />
+
+        <service android:name="uic.capstone.vibemessenger.discovery.UdpServerService" />
+
+        <service android:name="uic.capstone.vibemessenger.connect.TcpServerService" />
+
+        <service android:name="uic.capstone.vibemessenger.connect.TcpClientService" />
+
+    </application>
+
+</manifest>

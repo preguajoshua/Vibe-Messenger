@@ -2,31 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\Near-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="D:\Near-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2a40e6c52b04449b7e2a3e2500e09bd92686dd9c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Near-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cd6c68c13c327de00fd9b08c690b45cc2c41d35">
-        <dex dex="D:\Near-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bf8ab1388d2b2b4dd7517e4d4d42c4304895bf34\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
-        jar="D:\Near-master\near\build\intermediates\bundles\default\classes.jar"
+        jar="D:\Vibe Messenger\Backend\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b0b50da7c72fc298af414c269da5c956f649e6d0">
-        <dex dex="D:\Near-master\app\build\intermediates\pre-dexed\debug\classes_ae26ef7fa07ee954d3047c80301889e964a82391.jar" />
+        sha1="49a7cd881fdd1d0b05dd780951ecbaeeb9580b32">
+        <dex dex="D:\Vibe Messenger\app\build\intermediates\pre-dexed\debug\classes_a082c80b47fef8fd5dbf75a89f34a1f5469325eb.jar" />
     </item>
 
 </items>
